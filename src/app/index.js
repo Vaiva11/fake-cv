@@ -99,6 +99,14 @@ function App() {
         </section>
         <section className="Section">
           <div className="Section--left">
+            <h3>Hobbies</h3>
+          </div>
+          <div className="Section--right">
+            <p>I like money</p>
+          </div>
+        </section>
+        <section className="Section">
+          <div className="Section--left">
             <h3>Reference</h3>
           </div>
           <div className="Section--right">
