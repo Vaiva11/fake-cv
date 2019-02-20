@@ -11,7 +11,7 @@ function App() {
         <p className="Header--contact">
           Email:
           <a
-            href="mailto: vaiva.gr@gmail.com"
+            href="mailto: vaiva.gri@gmail.com"
             target="blank_"
             rel="noopener norefferer"
           >
@@ -27,11 +27,11 @@ function App() {
           remaining essentially unchanged. It was popularised in the 1960s with
           the release of Letraset sheets containing Lorem Ipsum passages, and
           more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          including versions of Lorem Ipsumm.
         </p>
         <img
           className="Header--profile-pic"
-          alt="kitty"
+          alt="kittyy"
           src="https://static1.squarespace.com/static/5a26bc7451a584c4421507c7/t/5a28b3f8652deabe5e26f57c/1512780740388/1d83e0f607b7b1de607fff558a573b6c--cat-smile-smile-smile.jpg"
         />
       </header>
