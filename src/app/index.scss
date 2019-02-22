@@ -107,3 +107,21 @@ main {
     }
   }
 }
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  background-color: #d6c6ad;
+
+  //iconu keitimas neiskraipant foto rezoliucijos
+  svg {
+    padding: 10px;
+    font-size: 50x;
+    color: black;
+    transition: color 0.2s linear;
+
+    &:hover {
+      color: #989595;
+    }
+  }
+}
