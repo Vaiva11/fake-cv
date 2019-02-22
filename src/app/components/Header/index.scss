@@ -1,0 +1,36 @@
+.Header {
+  margin: 20px;
+  position: relative;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  &--contact {
+    font-weight: 700;
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #989595;
+    }
+  }
+
+  &--profile-pic {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 200px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in;
+
+    &:hover {
+      transform: rotate(30deg);
+    }
+  }
+
+  &--summary {
+    width: 30em;
+    margin-top: 20px;
+  }
+}
